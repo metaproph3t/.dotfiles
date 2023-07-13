@@ -4,3 +4,6 @@
 # improvement to get rid of it. If you want to see the difference before you
 # disable it completely, you can do `systemctl stop kloak`
 systemctl disable kloak
+
+# This gets rid of that pesky login message
+touch /etc/hushlogin
