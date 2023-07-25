@@ -7,3 +7,4 @@ map K 5k
 map H :prev<cr>
 map L :next<cr>
 set scrolloff=6
+set colorcolumn=80
