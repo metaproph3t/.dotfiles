@@ -1,0 +1,6 @@
+[user]
+	name = metaproph3t
+	email = metaproph3t@protonmail.com
+	signingkey = 618F9A39F89908D8
+[commit]
+	gpgsign = true
