@@ -1,0 +1,8 @@
+alias vim="nvim"
+export PATH=$PATH:/home/user/.local/bin
+
+# git configs
+export GIT_EDITOR=nvim
+RAW_DATE=$(date -uIminutes)
+export GIT_AUTHOR_DATE=${RAW_DATE::-11}00:00:00
+export GIT_COMMITTER_DATE=${RAW_DATE::-11}00:00:00
