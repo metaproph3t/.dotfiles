@@ -11,3 +11,7 @@ export GIT_COMMITTER_DATE=${RAW_DATE::-11}00:00:00
 
 # add solana bins to path
 export PATH=$PATH:/home/user/.local/share/solana/install/active_release/bin
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
