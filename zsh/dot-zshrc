@@ -8,3 +8,6 @@ export GIT_AUTHOR_DATE=${RAW_DATE::-11}00:00:00
 export GIT_COMMITTER_DATE=${RAW_DATE::-11}00:00:00
 
 [ -f ~/.cargo/env ] && source $HOME/.cargo/env
+
+# add solana bins to path
+export PATH=$PATH:/home/user/.local/share/solana/install/active_release/bin
